@@ -1,0 +1,33 @@
+.navcoll{
+    background-color: #ef9136;
+    color: white;
+}
+body,html {
+    height: 100%;
+    width: 100%;
+}
+.fondo {
+    background-color: black;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    margin-top: 95px;
+}
+#map { 
+    height: 100vh; 
+}
+.col-md-6 {
+    padding-left: 0;
+    padding-right: 0;
+}
+.wrapper {
+    position: relative;
+}
+.fixed-top-2{
+    margin-top: 58px;
+    transition: all .1s ease-in-out;
+}
+.nav1-expanded{
+    margin-top: 105px;
+    transition: all .5s ease-in-out;
+}
