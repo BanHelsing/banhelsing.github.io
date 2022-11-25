@@ -17,7 +17,7 @@ var data = {}
     si no se define un piso quedará como undefined
 }
 */
-map._layers.forEach(mark => {
+markers.forEach(mark => {
     var curMarker = mark[0]
     var curName = mark[1]
     var piso = mark[2]
