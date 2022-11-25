@@ -8,25 +8,3 @@ L.easyButton('bi bi-person-video3', function(){
         salas_layer.addTo(map);
     }
 }).addTo(map)
-
-//Baños
-//TODO sin implementar
-L.easyButton(function(){
-    //map.removeLayer(salas_list);
-    if (map.hasLayer(_layer)) {
-        _layer.remove();
-    } else {
-        _layer.addTo(map);
-    }
-}).addTo(map)
-
-//Oficinas
-//TODO sin implementar
-L.easyButton(function(){
-    //map.removeLayer(salas_list);
-    if (map.hasLayer(_layer)) {
-        _layer.remove();
-    } else {
-        _layer.addTo(map);
-    }
-}).addTo(map)
