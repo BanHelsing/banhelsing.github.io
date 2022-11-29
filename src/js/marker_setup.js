@@ -15,19 +15,12 @@ salas_piso2 = [];
 banos_piso1 = [];
 admin_piso1 = [];
 deptos_piso1 = [];
-<<<<<<< Updated upstream
-
-salas = [salas_piso1, salas_piso2]
-
-piso1 = [salas_piso1,baños_piso1,admin_piso1,deptos_piso1];
-=======
 labs_piso1 = [];
 kiosco_piso1 = [];
 
 salas = [salas_piso1, salas_piso2]
 
 piso1 = [salas_piso1,banos_piso1,admin_piso1,deptos_piso1,labs_piso1,kiosco_piso1];
->>>>>>> Stashed changes
 piso2 = [salas_piso2];
 
 pisos = [piso1, piso2];
@@ -45,13 +38,10 @@ salas_piso2.push(salaE003);
 const lab_metro = L.marker([3239,562], {title:"Laboratorio Metrología", riseOnHover: true, interactive: true});
 salas_piso2.push(lab_metro);
 
-<<<<<<< Updated upstream
-=======
 //Edificio E piso 1
 const LabAltaTension = L.marker([2743, 804], {title:"Laboratorio de Alta Tension", riseOnHover: true, interactive: true});
 labs_piso1.push(LabAltaTension);
 
->>>>>>> Stashed changes
 //Edificio A Piso 1
 const dep_fis = L.marker([1281, 3355], {title:"Departamento de fisica", riseOnHover: true, interactive: true});
 deptos_piso1.push(dep_fis)
@@ -118,8 +108,6 @@ salas_piso1.push(salaA013)
 const salaA012 = L.marker([2129,3555], {title:"Sala A-012", riseOnHover: true, interactive: true});
 salas_piso1.push(salaA012)
 
-<<<<<<< Updated upstream
-=======
 //Edificio B
 const labminas = L.marker([2980,1519], {title:"Laboratorio de Ing. civil en Minas", riseOnHover: true, interactive: true});
 labs_piso1.push(labminas);
@@ -158,7 +146,6 @@ const salaB002 = L.marker([3922,2204], {title:"Sala B-002", riseOnHover: true, i
 salas_piso1.push(salaB002);
 const bano_ciac1 = L.marker([3966,2369], {title:"Baño", riseOnHover: true, interactive: true});
 banos_piso1.push(bano_ciac1); //cambiar nombre si es necesario
->>>>>>> Stashed changes
 
 //! Placeholder para testeo, eventualmente se borrará/cambiará
 const gimnasio = L.marker([2444,1725], {title:"Gimnasio", riseOnHover: true, interactive: true});
@@ -206,15 +193,10 @@ const labs_piso1_layer = L.layerGroup(labs_piso1)
 const kiosco_piso1_layer = L.layerGroup(kiosco_piso1)
 
 
-<<<<<<< Updated upstream
-
-var piso1_layer = L.layerGroup(salas_piso1.concat(admin_piso1, deptos_piso1, baños_piso1))
-=======
 const piso1_layer = L.layerGroup(salas_piso1.concat(admin_piso1, deptos_piso1, banos_piso1, labs_piso1,kiosco_piso1))
 piso1_layer.addTo(map)
 
 
->>>>>>> Stashed changes
 
 
 const salas_piso2_layer = L.layerGroup(salas_piso2)
