@@ -13,7 +13,7 @@ L.easyButton('bi bi-cursor-fill', function(e) {
     if (pointer_active) {
         map.off('click', getlatlng);
         pointer_active = false;
-        swal({title:"Pointer deactivated"})
+        swal({title:"Pointer desactivated"})
     } else {
         map.on('click', getlatlng);
         pointer_active = true;
