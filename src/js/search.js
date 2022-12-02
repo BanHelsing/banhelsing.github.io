@@ -1,5 +1,5 @@
 //datos generados por los marcadores en cierto piso
-var data = {}
+var data = {};
 
 /* Genera un objeto de la siguiente manera
 {
@@ -93,4 +93,4 @@ function searching(){
             swal({title:"No encontrado"})
         }
     }
-}
+};

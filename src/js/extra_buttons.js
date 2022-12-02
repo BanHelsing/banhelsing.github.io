@@ -9,7 +9,7 @@ L.easyButton('bi bi-person-video3', function(){
             layer.addTo(map);
         }
     });
-}).addTo(map)
+}).addTo(map);
 
 
 //Admins
@@ -23,11 +23,5 @@ L.easyButton('bi bi-building', function(){
             layer.addTo(map);
         }
     });
-}).addTo(map)
+}).addTo(map);
 
-var baseMaps = {
-    "Piso 1": piso1_layer,
-    "Piso 2": piso2_layer
-};
-
-L.control.layers(baseMaps).addTo(map);

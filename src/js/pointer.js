@@ -5,7 +5,7 @@ function getlatlng(e) {
         .setLatLng(e.latlng)
         .setContent(e.latlng.toString())
         .openOn(map);
-}
+};
 
 var pointer_active = false;
 L.easyButton('bi bi-cursor-fill', function(e) {
@@ -19,4 +19,4 @@ L.easyButton('bi bi-cursor-fill', function(e) {
         pointer_active = true;
         swal({title:"Pointer activated"})
     };    
-}).addTo(map)
+}).addTo(map);
