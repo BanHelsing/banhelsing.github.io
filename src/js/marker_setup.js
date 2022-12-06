@@ -78,7 +78,7 @@ salas_piso1.push(salaA029)
 const sala130B = L.marker([2057, 3528], {title:"Sala 130-B", riseOnHover: true, interactive: true});
 salas_piso1.push(sala130B)
 const banoMiA = L.marker([2058,3301], {title:"Baño", riseOnHover: true, interactive: true});
-banos_piso1.push(banoMiA)
+baños_piso1.push(banoMiA)
 const salaA017 = L.marker([2000, 2989], {title:"Sala A-017", riseOnHover: true, interactive: true});
 salas_piso1.push(salaA017)
 const salaA001 = L.marker([2189,2950], {title:"Sala A-001", riseOnHover: true, interactive: true});
@@ -96,11 +96,11 @@ salas_piso1.push(salaA010)
 const salaA011 = L.marker([2508,3204], {title:"Sala A-011", riseOnHover: true, interactive: true});
 salas_piso1.push(salaA011)
 const banoH = L.marker([2578,3123], {title:"Baño de Hombres", riseOnHover: true, interactive: true});
-banos_piso1.push(banoH)
+baños_piso1.push(banoH)
 const banoM = L.marker([2605,3233], {title:"Baño de Mujeres", riseOnHover: true, interactive: true});
-banos_piso1.push(banoM)
+baños_piso1.push(banoM)
 const bano2 = L.marker([2068,3574], {title:"Baño", riseOnHover: true, interactive: true});
-banos_piso1.push(bano2)
+baños_piso1.push(bano2)
 const caja = L.marker([2744,3410], {title:"Caja de Pagos", riseOnHover: true, interactive: true});
 admin_piso1.push(caja)
 const PACE = L.marker([2653,3480], {title:"PACE", riseOnHover: true, interactive: true});
