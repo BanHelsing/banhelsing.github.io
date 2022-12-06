@@ -34,12 +34,11 @@ const map = L.map('map', {
     wheelDebounceTime: 0,
     zoomControl: false
 });
-
 //var bounds = [[0,0], [1000,1110.2]]
-var bounds = [[0,0], [4828,5360]];
+var bounds = [[0,0], [4828,5360]]
 
 // res = 5360 x 4828
 var image = L.imageOverlay("./src/img/mapa.jpeg", bounds).addTo(map);
 map.fitBounds(bounds);
 
-map.setView([2200, 2680],-1.8);
+map.setView([2200, 2680],-1.8)

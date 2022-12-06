@@ -1,5 +1,5 @@
 //datos generados por los marcadores en cierto piso
-var data = {};
+var data = {}
 
 /* Genera un objeto de la siguiente manera
 {
@@ -35,7 +35,7 @@ markers.forEach(mark => {
     }
 });
 
-console.log(data);
+console.log(data)
 
 //barra de busqueda (input)
 const searchInput = document.getElementById("searchInput");
@@ -49,4 +49,4 @@ function searching(){
             map.flyTo(coords, 1,{animate:true,duration:1});
         }
     }
-};
+}

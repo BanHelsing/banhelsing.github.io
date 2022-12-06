@@ -4,32 +4,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--Titulo del documento/pagina-->
     <title>I.M. USM</title>
-    <!--CSS only-->
+    <!-- CSS only -->
     <link rel="stylesheet" href="src/css/nav.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
-    <!--Icons-->
+    <!-- Icons (creo) -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
-    <!--Scripts Importados-->
-    <!--Leaflet-->
+    <!-- Leaflet -->
     <link rel="stylesheet" href="src/leaflet/leaflet.css"/>
     <script src="src/leaflet/leaflet.js"></script> 
-    <!--Easy Button-->>
+    <!-- Easy Button -->>
     <link rel="stylesheet" href="src/easybutton/easy-button.css"/>
     <script src="src/easybutton/easy-button.js"></script>
-    <!--SweetAlert-->>
+    <!-- SweetAlert -->>
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-    <!--jquery-->
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 </head>
 <body>
-    <!--heading-->
+    <!-- As a heading -->
     <div class="wrapper">
-        <!--Logo y Barra Buscadora Superior-->
         <nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top">
             <div class="container-fluid align-left">
                 <span class="navbar-brand mb-0 h1">
@@ -46,9 +41,7 @@
                 </div>
             </div>
         </nav>
-        <!--Barra pop-up de aceso rapido a opciones-->
         <nav class="navbar navcoll fixed-top fixed-top-2" id="nav2">
-            <!--Contenido de la barra pop-up-->
             <div class="container-fluid justify-content-center">
                 <div class="collapse" id="options">
                     <span class="h1">Acceso rápido</span>
@@ -59,7 +52,6 @@
                     </div>
                 </div>
             </div>
-            <!--Boton que habilita la barra pop-up-->
             <div class="container-fluid justify-content-center">
                 <button type="button" class="btn btn-sm btn-outline-light" style="--bs-btn-font-size: 10px;" data-bs-toggle="collapse" data-bs-target="#options" onclick="swap()">
                     <i class="bi bi-chevron-double-down" id="icono"></i>
@@ -67,22 +59,15 @@
             </div>
         </nav>
     </div>
-    <!--Contenedor del mapa-->
     <div class="fondo">
         <div id="map"></div>
     </div>
-    <!--Carga de scripts locales-->
     <script src="src/js/map-geojson.js" type="text/javascript"></script>
     <script src="src/js/map_setup.js"></script>
     <script src="src/js/building_setup.js"></script>
-    <script src="src/js/Markers/marker_General_layer.js"></script>
-    <script src="src/js/Markers/marker_Error_layer.js"></script>
-    <script src="src/js/Markers/marker_Piso_0_layer.js"></script>
-    <script src="src/js/Markers/marker_Piso_3_layer.js"></script>
-    <script src="src/js/Markers/marker_Piso_4_layer.js"></script>
     <script src="src/js/marker_setup.js"></script>
     <script src="src/js/extra_buttons.js"></script>
-    <script src="src/js/Layer_task_Manager.js"></script>
     <script src="src/js/pointer.js"></script>
+    <script src="src/js/search.js"></script>
 </body>
 </html>
