@@ -45,31 +45,39 @@ labs_piso1.push(LabAltaTension);
 //Edificio A Piso 1
 const dep_fis = L.marker([1281, 3355], {title:"Departamento de fisica", riseOnHover: true, interactive: true});
 deptos_piso1.push(dep_fis)
-const salaA016 = L.marker([1427,3367], {title:"Sala A016", riseOnHover: true, interactive: true});
+const salaA016 = L.marker([1455,3359], {title:"Sala A-016", riseOnHover: true, interactive: true});
 salas_piso1.push(salaA016)
+const salaA004 = L.marker([1576,3332], {title:"Sala A-004", riseOnHover: true, interactive: true});
+salas_piso1.push(salaA004)
+const salaA005 = L.marker([1698,3311], {title:"Sala A-005", riseOnHover: true, interactive: true});
+salas_piso1.push(salaA005)
+const salaA006 = L.marker([1800,3288], {title:"Sala A-006", riseOnHover: true, interactive: true});
+salas_piso1.push(salaA006)
+const salaA007 = L.marker([1914,3256], {title:"Sala A-007", riseOnHover: true, interactive: true});
+salas_piso1.push(salaA007)
 const dep_mat = L.marker([1459, 3095], {title:"Departamento de Matematica", riseOnHover: true, interactive: true});
 deptos_piso1.push(dep_mat)
 const dep_eh = L.marker([1814, 3081], {title:"Departamento de Estudios humanisticos", riseOnHover: true, interactive: true});
 deptos_piso1.push(dep_eh)
 const dep_qui = L.marker([1824, 2991], {title:"Departamento de Quimica", riseOnHover: true, interactive: true});
 deptos_piso1.push(dep_qui)
-const asem = L.marker([1525, 3688], {title:"ASEM", riseOnHover: true, interactive: true});
+const asem = L.marker([1521, 3646], {title:"ASEM", riseOnHover: true, interactive: true});
 salas_piso1.push(asem)
-const ingAmb = L.marker([1586, 3675], {title:"Ingieneria Civil Ambiental", riseOnHover: true, interactive: true});
+const ingAmb = L.marker([1586, 3634], {title:"Ingieneria Civil Ambiental", riseOnHover: true, interactive: true});
 deptos_piso1.push(ingAmb)
-const salaA025 = L.marker([1646, 3662], {title:"Sala A-025", riseOnHover: true, interactive: true});
+const salaA025 = L.marker([1662, 3617], {title:"Sala A-025", riseOnHover: true, interactive: true});
 salas_piso1.push(salaA025)
-const salaA026 = L.marker([1702, 3649], {title:"Sala A-026", riseOnHover: true, interactive: true});
+const salaA026 = L.marker([1745, 3600], {title:"Sala A-026", riseOnHover: true, interactive: true});
 salas_piso1.push(salaA026)
-const salaA027 = L.marker([1773, 3634], {title:"Sala A-027", riseOnHover: true, interactive: true});
+const salaA027 = L.marker([1820, 3579], {title:"Sala A-027", riseOnHover: true, interactive: true});
 salas_piso1.push(salaA027)
-const salaA028 = L.marker([1831, 3621], {title:"Sala A-028", riseOnHover: true, interactive: true});
+const salaA028 = L.marker([1892, 3566], {title:"Sala A-028", riseOnHover: true, interactive: true});
 salas_piso1.push(salaA028)
-const salaA029 = L.marker([1927, 3600], {title:"Sala A-029", riseOnHover: true, interactive: true});
+const salaA029 = L.marker([1968, 3547], {title:"Sala A-029", riseOnHover: true, interactive: true});
 salas_piso1.push(salaA029)
-const sala130B = L.marker([1882, 3610], {title:"Sala 130-B", riseOnHover: true, interactive: true});
+const sala130B = L.marker([2057, 3528], {title:"Sala 130-B", riseOnHover: true, interactive: true});
 salas_piso1.push(sala130B)
-const banoMiA = L.marker([1949, 3326], {title:"Baño", riseOnHover: true, interactive: true});
+const banoMiA = L.marker([2058,3301], {title:"Baño", riseOnHover: true, interactive: true});
 banos_piso1.push(banoMiA)
 const salaA017 = L.marker([2000, 2989], {title:"Sala A-017", riseOnHover: true, interactive: true});
 salas_piso1.push(salaA017)
@@ -79,18 +87,20 @@ const salaA002 = L.marker([2348,2917], {title:"Sala A-002", riseOnHover: true, i
 salas_piso1.push(salaA002)
 const salaA003 = L.marker([2492,2887], {title:"Sala A-003", riseOnHover: true, interactive: true});
 salas_piso1.push(salaA003)
-const salaA008 = L.marker([2058,3301], {title:"Sala A-008", riseOnHover: true, interactive: true});
+const salaA008 = L.marker([2168,3264], {title:"Sala A-008", riseOnHover: true, interactive: true});
 salas_piso1.push(salaA008)
-const salaA009 = L.marker([2168,3264], {title:"Sala A-009", riseOnHover: true, interactive: true});
+const salaA009 = L.marker([2283,3237], {title:"Sala A-009", riseOnHover: true, interactive: true});
 salas_piso1.push(salaA009)
-const salaA010 = L.marker([2283,3237], {title:"Sala A-010", riseOnHover: true, interactive: true});
+const salaA010 = L.marker([2391,3228], {title:"Sala A-010", riseOnHover: true, interactive: true});
 salas_piso1.push(salaA010)
-const salaA011 = L.marker([2391,3228], {title:"Sala A-011", riseOnHover: true, interactive: true});
+const salaA011 = L.marker([2508,3204], {title:"Sala A-011", riseOnHover: true, interactive: true});
 salas_piso1.push(salaA011)
-const banoH = L.marker([2533,3161], {title:"Baño de Hombres", riseOnHover: true, interactive: true});
+const banoH = L.marker([2578,3123], {title:"Baño de Hombres", riseOnHover: true, interactive: true});
 banos_piso1.push(banoH)
-const banoM = L.marker([2562,3275], {title:"Baño de Mujeres", riseOnHover: true, interactive: true});
+const banoM = L.marker([2605,3233], {title:"Baño de Mujeres", riseOnHover: true, interactive: true});
 banos_piso1.push(banoM)
+const bano2 = L.marker([2068,3574], {title:"Baño", riseOnHover: true, interactive: true});
+banos_piso1.push(bano2)
 const caja = L.marker([2744,3410], {title:"Caja de Pagos", riseOnHover: true, interactive: true});
 admin_piso1.push(caja)
 const PACE = L.marker([2653,3480], {title:"PACE", riseOnHover: true, interactive: true});
@@ -111,7 +121,47 @@ salas_piso1.push(salaA012)
 //Edificio B
 const labminas = L.marker([2980,1519], {title:"Laboratorio de Ing. civil en Minas", riseOnHover: true, interactive: true});
 labs_piso1.push(labminas);
+const labquimica = L.marker([3466,1344], {title:"Laboratorio de Quimica", riseOnHover: true, interactive: true})
+labs_piso1.push(labquimica);
+const labprocesos = L.marker([3393,1076], {title:"Laboratorio de Procesos", riseOnHover: true, interactive: true})
+labs_piso1.push(labprocesos);
+const labinfo = L.marker([3084,1805], {title:"Laboratorio de informatica (LDS)", riseOnHover: true, interactive: true})
+labs_piso1.push(labinfo);
 
+const deptoarqui = L.marker([3680,2102], {title:"Departamento de Arquitectura", riseOnHover: true, interactive: true})
+deptos_piso1.push(deptoarqui);
+
+const audi = L.marker([3488,2040], {title:"Sala B-022 (Auditorio)", riseOnHover: true, interactive: true})
+salas_piso1.push(audi)
+const salab003 = L.marker([3882,2044], {title:"Sala B-003", riseOnHover: true, interactive: true})
+salas_piso1.push(salab003)
+const salab004 = L.marker([3848,1918], {title:"Sala B-004", riseOnHover: true, interactive: true})
+salas_piso1.push(salab004)
+const salab005 = L.marker([3844,1810], {title:"Sala B-005", riseOnHover: true, interactive: true})
+salas_piso1.push(salab005)
+const salab006 = L.marker([3820,1700], {title:"Sala B-006", riseOnHover: true, interactive: true})
+salas_piso1.push(salab006)
+const salab007 = L.marker([3804,1592], {title:"Sala B-007", riseOnHover: true, interactive: true})
+salas_piso1.push(salab007)
+const salab008 = L.marker([3756,1482], {title:"Sala B-008", riseOnHover: true, interactive: true})
+salas_piso1.push(salab008)
+const salab009 = L.marker([3764,1314], {title:"Sala B-009", riseOnHover: true, interactive: true})
+salas_piso1.push(salab009)
+const salab010 = L.marker([3718,1206], {title:"Sala B-010", riseOnHover: true, interactive: true})
+salas_piso1.push(salab010)
+const salab038 = L.marker([3176,1606], {title:"Sala B-038", riseOnHover: true, interactive: true})
+salas_piso1.push(salab038)
+const salab049 = L.marker([3361,1579], {title:"Sala B-049", riseOnHover: true, interactive: true})
+salas_piso1.push(salab049)
+const salab036 = L.marker([3098,1633], {title:"Sala B-036", riseOnHover: true, interactive: true})
+salas_piso1.push(salab036)
+const salab033 = L.marker([3098,1638], {title:"Sala B-033", riseOnHover: true, interactive: true})
+salas_piso1.push(salab033)
+const salab032 = L.marker([3026,1655], {title:"Sala B-032", riseOnHover: true, interactive: true})
+salas_piso1.push(salab032)
+
+const banoB = L.marker([3611,1670], {title:"Baño", riseOnHover: true, interactive: true})
+banos_piso1.push(banoB)
 //Edificio C
 const fablab = L.marker([2066,2765], {title:"FabLab", riseOnHover: true, interactive: true});
 salas_piso1.push(fablab);
