@@ -28,7 +28,8 @@ author:
   pronouns         : # example: "she/her"  
   bio              : "Computer Engineering Student"
   location         : "Santiago, Chile"
-  employer         : "Universidad Técnica Federico Santa María"
+  #employer         : "Universidad Técnica Federico Santa María"
+  employer         : "UTFSM, San Joaquín"
   uri              : # URL
   email            : "ian.rossi@usm.cl" 
 
@@ -125,7 +126,7 @@ staticman:
       options:
         format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
 atom_feed:
-  hide                   : false     # change to true to hide the RSS feed in the footer
+  hide                   : true     # change to true to hide the RSS feed in the footer
   path                   : # blank (default) uses feed.xml
 
 
