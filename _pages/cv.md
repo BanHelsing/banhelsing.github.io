@@ -11,35 +11,25 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* B.Sc. in Computer Science and Engineering - Universidad Técnica Federico Santa María
+  * Graduation expected: 2026
+  * Integrated Master of Science (M.Sc.) in Computer Engineering (300 ECTS equivalent)
+
+*Note: The Chilean "Ingeniería Civil" is a 5.5-year professional program encompassing both Bachelor's and Master's level coursework (300 SCT/ECTS credits).*
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* 2024 - 2026: Teaching Assistant
+  * *Operating Systems, User Interface Design*
+  * I designed and reviewed assignments and provided guidance to student groups throughout the semester. I also provided additional support to the professors with other tasks, such as communicating with students, administering in-person exams, etc.
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* Summer 2025: Internship
+  * [Agencia Ginebra](https://www.linkedin.com/company/agenciaginebra/about/)
+  * I performed various developer and IT support tasks, assisting other team members with complex tasks, working on website creation for clients, and as lead programmer on a project based on Godot for an advertising agency.
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Summer 2026: Internship
+  * [Itrend](https://itrend.cl/en/inicio)
+  * I collaborated on the end-to-end design process, assisting the team with user research and wireframing, working on high-fidelity mockups for client deliverables, and conducting usability testing to refine product experiences for national security government clients.
 
 Publications
 ======
@@ -52,13 +42,3 @@ Talks
   <ul>{% for post in site.talks reversed %}
     {% include archive-single-talk-cv.html  %}
   {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
