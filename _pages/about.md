@@ -32,7 +32,7 @@ U(θ_i) = \begin{pmatrix}
 \end{pmatrix}
 $$
 
-A key advantage of this approach is the potential integration of Grover's algorithm, which reduces search complexity from $O(n)$ to $O(\sqrt{n})$.
+A key advantage of this approach is the potential integration of Grover's algorithm, which reduces search complexity from $$O(n)$$ to $$O(\sqrt{n})$$.
 
 By using quantum parallelism, the algorithm can evaluate multiple chromosomes simultaneously, leading to a significant reduction in the number of evaluations required to find an optimal solution.
 
