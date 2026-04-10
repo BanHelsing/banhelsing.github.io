@@ -9,7 +9,7 @@ redirect_from:
 
 I am a final-year Computer Science and Engineering student focusing in High-Performance Computing (HPC), quantum algorithm optimization, and applied artificial intelligence. My current academic work focuses on bridging theoretical quantum mechanics with classical hardware execution, specifically addressing the classical decoding bottlenecks in quantum error correction. Alongside my thesis research in metaheuristics and stochastic search algorithms, I develop computer vision pipelines for complex industrial environments.
 
-# 2. Publications & Research
+# 1. Publications & Research
 
 - Improved Quantum Genetic Algorithms (IQGA) for Complex Optimization
 Published in DYNA Journal (2025)
@@ -17,7 +17,7 @@ Published in DYNA Journal (2025)
 - High-Performance Classical Decoding for qLDPC Codes (Ongoing Research)
 Current research proposal targeting HPC acceleration for quantum error correction.
 
-# 3. Academic & Industrial Projects
+# 2. Academic & Industrial Projects
 
 ## BlastDynamics: Monocular Depth Estimation for Open-Pit Mining
 Undergraduate Software Project
@@ -37,8 +37,8 @@ Automated Topographic Reconstruction and Swell Factor Estimation in Open-Pit Min
 
 - Applying DEM of Difference (DoD) mathematical models with statistical error propagation to deliver rapid and robust volumetric estimations for emergency geomechanical assessments.
 
-## Languages
+# 3. Languages
 
 - Spanish (Native)
 - English (Fluent), Scored 110/120 in TOEFL iBT
-- Japanese (Intermediate/In progress)
+- Japanese (Basic - Intermediate), In progress

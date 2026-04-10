@@ -19,6 +19,15 @@ Education
 
 Work experience
 ======
+
+* March 2026 - Current
+  * [Itrend](https://itrend.cl/en/inicio)
+  * I remain working at the company, providing critical work within the areas of UX and UI.
+
+* Summer 2026: Internship
+  * [Itrend](https://itrend.cl/en/inicio)
+  * I collaborated on the end-to-end design process, assisting the team with user research and wireframing, working on high-fidelity mockups for client deliverables, and conducting usability testing to refine product experiences for national security government clients.
+  
 * 2024 - 2026: Teaching Assistant
   * *Operating Systems, Design of User Interfaces*
   * I designed and reviewed assignments and provided guidance to student groups throughout the semester. I also provided additional support to the professors with other tasks, such as communicating with students, administering in-person exams, etc.
@@ -26,14 +35,6 @@ Work experience
 * Summer 2025: Internship
   * [Agencia Ginebra](https://www.linkedin.com/company/agenciaginebra/about/)
   * I performed various developer and IT support tasks, assisting other team members with complex tasks, working on website creation for clients, and as lead programmer on a project based on Godot for an advertising agency.
-
-* Summer 2026: Internship
-  * [Itrend](https://itrend.cl/en/inicio)
-  * I collaborated on the end-to-end design process, assisting the team with user research and wireframing, working on high-fidelity mockups for client deliverables, and conducting usability testing to refine product experiences for national security government clients.
-
-* March 2026 - Current
-  * [Itrend](https://itrend.cl/en/inicio)
-  * I remain working at the company, providing critical work within the areas of UX and UI.
 
 Publications
 ======
