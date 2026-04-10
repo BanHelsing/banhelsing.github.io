@@ -8,13 +8,13 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-site_theme               : "mint" # the available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
+site_theme               : "air" # the available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
 title                    : "Ian Rossi A. / Academic Portfolio"
 title_separator          : "-"
-name                     : &name "Ian Rossi"
+name                     : &name "Ian Rossi A."
 description              : &description "Ian Rossi's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : https://banhelsing.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
-                                                           # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
+                                                        # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "BanHelsing/banhelsing.github.io"
 
@@ -26,7 +26,7 @@ author:
   avatar           : "profile.png"
   name             : "Ian Rossi A."
   pronouns         : # example: "she/her"  
-  bio              : "Computer Engineering Student"
+  bio              : "Computer Science and Engineering Student"
   location         : "Santiago, Chile"
   #employer         : "Universidad Técnica Federico Santa María"
   employer         : "UTFSM, San Joaquín"
@@ -45,7 +45,7 @@ author:
   pubmed           : # URL
   researchgate     : # URL
   scopus           : # URL
-  zotero           : # URL
+  zotero           : "https://www.zotero.org/ian.rossi"
 
 
   # Repositories and software development

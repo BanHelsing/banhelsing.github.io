@@ -15,12 +15,12 @@ Education
   * Graduation expected: 2026
   * Integrated Master of Science (M.Sc.) in Computer Engineering (300 ECTS equivalent)
 
-*Note: The Chilean "Ingeniería Civil" is a 5.5-year professional program encompassing both Bachelor's and Master's level coursework (300 SCT/ECTS credits).*
+*Note: The Chilean "Ingeniería Civil" is a 5.5-year professional program encompassing both Bachelor's and Master's level coursework (300 SCT/ECTS credits). Similar to a Bac +4 as it is commonly known in France*
 
 Work experience
 ======
 * 2024 - 2026: Teaching Assistant
-  * *Operating Systems, User Interface Design*
+  * *Operating Systems, Design of User Interfaces*
   * I designed and reviewed assignments and provided guidance to student groups throughout the semester. I also provided additional support to the professors with other tasks, such as communicating with students, administering in-person exams, etc.
 
 * Summer 2025: Internship
@@ -30,6 +30,10 @@ Work experience
 * Summer 2026: Internship
   * [Itrend](https://itrend.cl/en/inicio)
   * I collaborated on the end-to-end design process, assisting the team with user research and wireframing, working on high-fidelity mockups for client deliverables, and conducting usability testing to refine product experiences for national security government clients.
+
+* March 2026 - Current
+  * [Itrend](https://itrend.cl/en/inicio)
+  * I remain working at the company, providing critical work within the areas of UX and UI.
 
 Publications
 ======

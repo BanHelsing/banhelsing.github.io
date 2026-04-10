@@ -7,39 +7,38 @@ redirect_from:
   - /about.html
 ---
 
-I am a Computer Science Engineer about to graduate from Universidad Técnica Federico Santa María (UTFSM). I co-authored the research paper "Advances improved quantum genetic algorithms: methods, impact and future challenges," published in the DYNA journal in 2025. My work specializes in Improved Quantum Genetic Algorithms (IQGA), an approach that applies quantum computing to genetic algorithms (GAs) to optimize performance in complex domains. My research focuses on leveraging quantum parallelism and superposition to reduce the time complexity of genetic operations. Currently, I apply my background in optimization and artificial intelligence to industrial challenges, specifically in mining and software engineering.
+I am a final-year Computer Science and Engineering student focusing in High-Performance Computing (HPC), quantum algorithm optimization, and applied artificial intelligence. My current academic work focuses on bridging theoretical quantum mechanics with classical hardware execution, specifically addressing the classical decoding bottlenecks in quantum error correction. Alongside my thesis research in metaheuristics and stochastic search algorithms, I develop computer vision pipelines for complex industrial environments.
 
-Research Overview (IQGA)
-======
-My research presents a comprehensive analysis of the Improved Quantum Genetic Algorithm (IQGA). This algorithm utilizes quantum bits (qubits) for information storage, which can exist in a superposition of states unlike classical chromosomes. A qubit is mathematically defined as:
+# 2. Publications & Research
 
-$$
-|\psi\rangle = \alpha|0\rangle + \beta|1\rangle
-$$
+- Improved Quantum Genetic Algorithms (IQGA) for Complex Optimization
+Published in DYNA Journal (2025)
 
-where the probability amplitudes satisfy the equation:
+- High-Performance Classical Decoding for qLDPC Codes (Ongoing Research)
+Current research proposal targeting HPC acceleration for quantum error correction.
 
-$$
-\alpha^2 + \beta^2 = 1
-$$
+# 3. Academic & Industrial Projects
 
-The algorithm utilizes quantum rotation gates to update chromosomes and guide them toward optimal solutions by adjusting the probability amplitudes. The rotation gate U(θi​) is defined as:
+## BlastDynamics: Monocular Depth Estimation for Open-Pit Mining
+Undergraduate Software Project
 
-$$
-U(θ_i) = \begin{pmatrix}
-\cos(θ_i/2) & -\sin(θ_i/2) \\
-\sin(θ_i/2) & \cos(θ_i/2)
-\end{pmatrix}
-$$
+- Engineered a computer vision system utilizing advanced monocular depth estimation models (Depth Anything) to quantify extracted material volume in dynamic mining environments.
 
-A key advantage of this approach is the potential integration of Grover's algorithm, which reduces search complexity from $$O(n)$$ to $$O(\sqrt{n})$$.
+- Designed and implemented a dual-pass video analysis logic to process, filter, and optimize large-scale visual data feeds under severe noise and variable lighting conditions.
 
-By using quantum parallelism, the algorithm can evaluate multiple chromosomes simultaneously, leading to a significant reduction in the number of evaluations required to find an optimal solution.
+## Undergraduate Thesis Project
+Automated Topographic Reconstruction and Swell Factor Estimation in Open-Pit Mines via Computer Vision.
 
-Tech Stack
-======
-1. Programming Languages: C++, Java, Go, Python.
+- Developing a lightweight computer vision pipeline to calculate post-blast rockfall volume and material swell factor using asynchronous UAV video feeds.
 
-2. Engineering & DevOps: Docker, Protobuf.
+- Implementing state-of-the-art Video Monocular Depth Estimation (MDE) architectures to extract temporally consistent depth maps, bypassing computationally expensive traditional Structure-from-Motion (SfM) photogrammetry.
 
-3. Core Domains: Quantum Computing, Metaheuristic Optimization, AI-driven Video Analysis (BlastDynamics), Stochastic Search.
+- Designing an automated spatial co-registration algorithm to align multitemporal depth maps by anchoring them to static topographical structures, recovering absolute metric scale without physical Ground Control Points (GCPs).
+
+- Applying DEM of Difference (DoD) mathematical models with statistical error propagation to deliver rapid and robust volumetric estimations for emergency geomechanical assessments.
+
+## Languages
+
+- Spanish (Native)
+- English (Fluent), Scored 110/120 in TOEFL iBT
+- Japanese (Intermediate/In progress)
