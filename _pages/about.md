@@ -1,44 +1,31 @@
 ---
 permalink: /
-title: "About myself"
+title: "About"
+excerpt: "Academic profile, research interests, and selected work of Ian Rossi Alvarado."
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-I am a final-year Computer Science and Engineering student focusing in High-Performance Computing (HPC), quantum algorithm optimization, and applied artificial intelligence. My current academic work focuses on bridging theoretical quantum mechanics with classical hardware execution, specifically addressing the classical decoding bottlenecks in quantum error correction. Alongside my thesis research in metaheuristics and stochastic search algorithms, I develop computer vision pipelines for complex industrial environments.
+I am a Computer Science and Engineering student at Universidad Técnica Federico Santa María (UTFSM). I have completed all coursework in the 5.5-year professional engineering program and expect to complete the degree in November 2026 after my thesis defense.
 
-# 1. Publications & Research
+My research interests include quantum computing and quantum error correction, machine learning and computer vision, scientific and high-performance computing, and algorithms and systems. My long-term objective is to pursue a PhD and an academic research career.
 
-- Improved Quantum Genetic Algorithms (IQGA) for Complex Optimization
-Published in DYNA Journal (2025)
+## Research
 
-- High-Performance Classical Decoding for qLDPC Codes (Ongoing Research)
-Current research proposal targeting HPC acceleration for quantum error correction.
+### Undergraduate thesis
 
-# 2. Academic & Industrial Projects
+**Non-Destructive Estimation in Heavy ANFO: A CNN Regression Approach** (2025-2026)
 
-## BlastDynamics: Monocular Depth Estimation for Open-Pit Mining
-Undergraduate Software Project
+I developed and evaluated a computer-vision regression system in Python using PyTorch, MobileNetV2, transfer learning, and OpenCV to estimate material composition from images. The CNN was trained on a 1,275-image dataset and achieved a mean absolute error of 4.92% on the independent test set, substantially outperforming a traditional computer-vision baseline.
 
-- Engineered a computer vision system utilizing advanced monocular depth estimation models (Depth Anything) to quantify extracted material volume in dynamic mining environments.
+### Publication
 
-- Designed and implemented a dual-pass video analysis logic to process, filter, and optimize large-scale visual data feeds under severe noise and variable lighting conditions.
+Lucas Apablaza, Iván Oyarzún-Rojas, Ian Rossi A., and Mauricio Solar. "Advances improved quantum genetic algorithms: methods, impact and future challenges." *DYNA*, vol. 100, no. 6, pp. 491-496, 2025. [DOI: 10.52152/D11434](https://doi.org/10.52152/D11434).
 
-## Undergraduate Thesis Project
-Automated Topographic Reconstruction and Swell Factor Estimation in Open-Pit Mines via Computer Vision.
+## Selected academic project
 
-- Developing a lightweight computer vision pipeline to calculate post-blast rockfall volume and material swell factor using asynchronous UAV video feeds.
+### BlastDynamics
 
-- Implementing state-of-the-art Video Monocular Depth Estimation (MDE) architectures to extract temporally consistent depth maps, bypassing computationally expensive traditional Structure-from-Motion (SfM) photogrammetry.
-
-- Designing an automated spatial co-registration algorithm to align multitemporal depth maps by anchoring them to static topographical structures, recovering absolute metric scale without physical Ground Control Points (GCPs).
-
-- Applying DEM of Difference (DoD) mathematical models with statistical error propagation to deliver rapid and robust volumetric estimations for emergency geomechanical assessments.
-
-# 3. Languages
-
-- Spanish (Native)
-- English (Fluent), Scored 110/120 in TOEFL iBT
-- Japanese (Basic - Intermediate), In progress
+As Computer Vision Developer, Scrum Master, and sole developer of the video-analysis CLI, I built a classical computer-vision pipeline that detected and tracked flyrocks in blasting footage. The OpenCV implementation used frame differencing, morphological filtering, contour analysis, and temporal trajectory association. It estimated metric trajectories from camera parameters, calculated motion and risk metrics, generated annotated video and structured JSON outputs, and supported batch processing through the project API.

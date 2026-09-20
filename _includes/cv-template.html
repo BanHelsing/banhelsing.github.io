@@ -81,6 +81,9 @@
         </div>
         <div class="cv-item-content">
           <div class="cv-item-subtitle">{{ education.institution }}</div>
+          {% if education.summary %}
+          <div class="cv-item-detail">{{ education.summary }}</div>
+          {% endif %}
           {% if education.gpa %}
           <div class="cv-item-detail">GPA: {{ education.gpa }}</div>
           {% endif %}
@@ -88,36 +91,6 @@
           <div class="cv-item-detail">
             <strong>Courses:</strong> {{ education.courses | join: ", " }}
           </div>
-          {% endif %}
-        </div>
-      </li>
-      {% endfor %}
-    </ul>
-  </div>
-  {% endif %}
-  
-  {% if cv.work.size > 0 %}
-  <!-- Work Experience -->
-  <div class="cv-section">
-    <h2>Work Experience</h2>
-    <ul class="cv-list">
-      {% for work in cv.work %}
-      <li class="cv-item">
-        <div class="cv-item-header">
-          <div class="cv-item-title">{{ work.position }}</div>
-          <div class="cv-item-date">{{ work.startDate }}{% if work.endDate %} - {{ work.endDate }}{% endif %}</div>
-        </div>
-        <div class="cv-item-content">
-          <div class="cv-item-subtitle">{{ work.company }}</div>
-          {% if work.summary %}
-          <div class="cv-item-detail">{{ work.summary }}</div>
-          {% endif %}
-          {% if work.highlights.size > 0 %}
-          <ul class="cv-highlights">
-            {% for highlight in work.highlights %}
-            <li>{{ highlight }}</li>
-            {% endfor %}
-          </ul>
           {% endif %}
         </div>
       </li>
@@ -182,7 +155,7 @@
       <li class="cv-item">
         <div class="cv-item-header">
           <div class="cv-item-title">{{ talk.name }}</div>
-          <div class="cv-item-date">{{ talk.date | slice: 0, 4 }}</div>
+          <div class="cv-item-date">{{ talk.date | date: "%B %d, %Y" }}</div>
         </div>
         <div class="cv-item-content">
           <div class="cv-item-subtitle">{{ talk.event }}</div>
@@ -208,7 +181,7 @@
       <li class="cv-item">
         <div class="cv-item-header">
           <div class="cv-item-title">{{ teaching.course }}</div>
-          <div class="cv-item-date">{{ teaching.date | slice: 0, 4 }}</div>
+          <div class="cv-item-date">{{ teaching.date }}</div>
         </div>
         <div class="cv-item-content">
           <div class="cv-item-subtitle">{{ teaching.institution }}</div>
@@ -228,13 +201,13 @@
   {% if cv.portfolio.size > 0 %}
   <!-- Portfolio -->
   <div class="cv-section">
-    <h2>Portfolio</h2>
+    <h2>Research and Academic Projects</h2>
     <ul class="cv-list">
       {% for item in cv.portfolio %}
       <li class="cv-item">
         <div class="cv-item-header">
           <div class="cv-item-title">{{ item.name }}</div>
-          <div class="cv-item-date">{{ item.date | slice: 0, 4 }}</div>
+          <div class="cv-item-date">{{ item.date }}</div>
         </div>
         <div class="cv-item-content">
           <div class="cv-item-subtitle">{{ item.category | capitalize }}</div>
@@ -245,6 +218,36 @@
           <div class="cv-item-detail">
             <a href="{{ item.url }}" target="_blank">View Project</a>
           </div>
+          {% endif %}
+        </div>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+  {% endif %}
+
+  {% if cv.work.size > 0 %}
+  <!-- Professional Experience -->
+  <div class="cv-section">
+    <h2>Professional Experience</h2>
+    <ul class="cv-list">
+      {% for work in cv.work %}
+      <li class="cv-item">
+        <div class="cv-item-header">
+          <div class="cv-item-title">{{ work.position }}</div>
+          <div class="cv-item-date">{{ work.startDate }}{% if work.endDate %} - {{ work.endDate }}{% endif %}</div>
+        </div>
+        <div class="cv-item-content">
+          <div class="cv-item-subtitle">{{ work.company }}</div>
+          {% if work.summary %}
+          <div class="cv-item-detail">{{ work.summary }}</div>
+          {% endif %}
+          {% if work.highlights.size > 0 %}
+          <ul class="cv-highlights">
+            {% for highlight in work.highlights %}
+            <li>{{ highlight }}</li>
+            {% endfor %}
+          </ul>
           {% endif %}
         </div>
       </li>

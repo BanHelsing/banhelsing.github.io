@@ -1,152 +1,172 @@
 {
   "basics": {
-    "name": "Your Sidebar Name",
-    "email": "none@example.org",
-    "phone": "",
-    "website": "https://academicpages.github.io",
-    "summary": "Currently employed at Red Brick University. Short biography for the left-hand sidebar",
+    "name": "Ian Rossi Alvarado",
+    "label": "Computer Science and Engineering Student",
+    "email": "ianrossi@live.cl",
+    "phone": "+56 9 6200 2917",
+    "website": "https://banhelsing.github.io",
+    "summary": "Computer Science and Engineering student at Universidad Técnica Federico Santa María. All coursework completed; thesis defense pending. Expected degree completion: November 2026. Long-term objective: pursue a PhD and an academic research career.",
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "Earth",
-      "countryCode": "US",
+      "city": "Santiago",
+      "countryCode": "Chile",
       "region": ""
     },
     "profiles": [
       {
         "network": "Google Scholar",
-        "username": "",
-        "url": "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
-      },
-      {
-        "network": "ORCID",
-        "username": "",
-        "url": "https://orcid.org/yourorcidurl"
+        "username": "Ian Rossi Alvarado",
+        "url": "https://scholar.google.com/citations?user=4O_iQRsAAAAJ"
       },
       {
         "network": "GitHub",
-        "username": "academicpages",
-        "url": "https://github.com/academicpages"
+        "username": "BanHelsing",
+        "url": "https://github.com/BanHelsing"
       }
     ]
   },
-  "work": [],
   "education": [
     {
-      "institution": "GitHub University",
-      "area": "Ph.D in Version Control Theory",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2018",
+      "institution": "Universidad Técnica Federico Santa María (UTFSM)",
+      "area": "Ingeniería Civil Informática (Computer Science and Engineering)",
+      "studyType": "5.5-year professional engineering program",
+      "startDate": "2020",
+      "endDate": "2020 - Expected Nov. 2026",
+      "summary": "11 academic semesters and 300 ECTS-equivalent credits. All coursework completed; thesis defense pending.",
       "gpa": null,
-      "courses": []
-    },
-    {
-      "institution": "GitHub University",
-      "area": "M.S. in Jekyll",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2014",
-      "gpa": null,
-      "courses": []
-    },
-    {
-      "institution": "GitHub University",
-      "area": "B.S. in GitHub",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2012",
-      "gpa": null,
-      "courses": []
+      "courses": [
+        "Introduction to Quantum Computing - 95/100",
+        "Applied Cryptography Workshop - 100/100",
+        "Security Systems - 97/100",
+        "Scientific Computing - 80/100",
+        "Computer Architecture and Organization",
+        "Computer Networks",
+        "Optimization",
+        "Computational Statistics"
+      ]
     }
   ],
-  "skills": [],
-  "languages": [],
-  "interests": [],
-  "references": [],
+  "work": [
+    {
+      "company": "Chilean Institute for Disaster Resilience (Itrend)",
+      "position": "UX/UI Engineer & Developer",
+      "startDate": "Nov. 2025",
+      "endDate": "Present",
+      "summary": "Internship: Nov. 2025-Feb. 2026; part-time: Mar.-Jul. 2026; full-time: Aug. 2026-Present.",
+      "highlights": [
+        "Primary in-house UX/UI specialist while contributing to full-stack development with Laravel/PHP and JavaScript.",
+        "Led the redesign of the organization's public website.",
+        "Developed product proposals and high-fidelity prototypes by translating client requirements into feasible product, UX, and technical specifications."
+      ]
+    },
+    {
+      "company": "Agencia Ginebra",
+      "position": "Software Development Intern",
+      "startDate": "Jan. 2025",
+      "endDate": "Mar. 2025",
+      "summary": "",
+      "highlights": [
+        "Built and maintained WordPress websites.",
+        "Configured a Transbank payment integration.",
+        "Served as the sole programmer on a small Godot-based game prototype."
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Programming",
+      "keywords": ["Python", "PHP", "JavaScript", "Academic experience with Go, C++, and Java"]
+    },
+    {
+      "name": "Machine Learning and Computer Vision",
+      "keywords": ["PyTorch", "OpenCV", "CNNs", "Transfer learning", "MobileNetV2"]
+    },
+    {
+      "name": "Systems and Development",
+      "keywords": ["Linux/Unix", "Git", "GitHub", "Docker"]
+    },
+    {
+      "name": "Web and Platforms",
+      "keywords": ["Laravel", "Harvard Dataverse using Java/XHTML", "Apache Superset", "HTML"]
+    },
+    {
+      "name": "UX/UI",
+      "keywords": ["Figma", "User-interface design", "User-experience design", "High-fidelity prototyping"]
+    }
+  ],
   "publications": [
     {
-      "name": "Paper Title Number 1",
-      "publisher": "Journal 1",
-      "releaseDate": "2009-10-01",
-      "website": "https://academicpages.github.io/files/paper1.pdf",
-      "summary": "This paper is about the number 1. The number 2 is left for future work."
-    },
-    {
-      "name": "Paper Title Number 2",
-      "publisher": "Journal 1",
-      "releaseDate": "2010-10-01",
-      "website": "https://academicpages.github.io/files/paper2.pdf",
-      "summary": "This paper is about the number 2. The number 3 is left for future work."
-    },
-    {
-      "name": "Paper Title Number 3",
-      "publisher": "Journal 1",
-      "releaseDate": "2015-10-01",
-      "website": "https://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about the number 3. The number 4 is left for future work."
-    },
-    {
-      "name": "Paper Title Number 4",
-      "publisher": "GitHub Journal of Bugs",
-      "releaseDate": "2024-02-17",
-      "website": "https://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about fixing template issue #693."
+      "name": "Advances improved quantum genetic algorithms: methods, impact and future challenges",
+      "publisher": "DYNA, vol. 100, no. 6, pp. 491-496",
+      "releaseDate": "2025-01-01",
+      "website": "https://doi.org/10.52152/D11434",
+      "summary": "Lucas Apablaza, Iván Oyarzún-Rojas, Ian Rossi A., and Mauricio Solar."
     }
   ],
   "presentations": [
     {
-      "name": "Talk 1 on Relevant Topic in Your Field",
-      "event": "UC San Francisco, Department of Testing",
-      "date": "2012-03-01",
-      "location": "San Francisco, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Tutorial 1 on Relevant Topic in Your Field",
-      "event": "UC-Berkeley Institute for Testing Science",
-      "date": "2013-03-01",
-      "location": "Berkeley, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Talk 2 on Relevant Topic in Your Field",
-      "event": "London School of Testing",
-      "date": "2014-02-01",
-      "location": "London, UK",
-      "description": ""
-    },
-    {
-      "name": "Conference Proceeding talk 3 on Relevant Topic in Your Field",
-      "event": "Testing Institute of America 2014 Annual Conference",
-      "date": "2014-03-01",
-      "location": "Los Angeles, CA, USA",
-      "description": ""
+      "name": "Advances improved quantum genetic algorithms: methods, impact and future challenges",
+      "event": "2nd Quantum Computing Workshop, LI Latin American Computing Conference (CLEI 2025)",
+      "date": "2025-10-29",
+      "location": "Pontificia Universidad Católica de Valparaíso, Valparaíso, Chile",
+      "description": "Oral presentation; sole presenter of the paper."
     }
   ],
   "teaching": [
     {
-      "course": "Teaching experience 1",
-      "institution": "University 1, Department",
-      "date": "2014-01-01",
-      "role": "Undergraduate course",
-      "description": ""
+      "course": "Operating Systems",
+      "institution": "Universidad Técnica Federico Santa María",
+      "date": "Mar. 2025-Jul. 2026",
+      "role": "Teaching Assistant",
+      "description": "Designed and graded laboratory assignments across three academic semesters. Provided technical guidance and supported students in reasoning through and debugging operating-systems coursework."
     },
     {
-      "course": "Teaching experience 2",
-      "institution": "University 1, Department",
-      "date": "2015-01-01",
-      "role": "Workshop",
-      "description": ""
+      "course": "User Interface Design",
+      "institution": "Universidad Técnica Federico Santa María",
+      "date": "Mar. 2025-Jul. 2026",
+      "role": "Teaching Assistant",
+      "description": "Reviewed practical coursework in user-interface design across three academic semesters. Provided guidance on course material and student projects."
+    },
+    {
+      "course": "Engineering, Informatics & Society",
+      "institution": "Universidad Técnica Federico Santa María",
+      "date": "Mar. 2023-Dec. 2023",
+      "role": "Teaching Assistant",
+      "description": "Mentored student teams throughout the development of the course's main semester project. Provided guidance on planning, problem solving, and project execution."
     }
   ],
   "portfolio": [
     {
-      "name": "Portfolio item number 1",
-      "category": "portfolio",
-      "date": "",
-      "url": "",
-      "description": "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+      "name": "Undergraduate Thesis - Non-Destructive Estimation in Heavy ANFO: A CNN Regression Approach",
+      "category": "Research experience",
+      "date": "2025-2026",
+      "url": "/portfolio/undergraduate-thesis-heavy-anfo/",
+      "description": "Developed and evaluated a PyTorch and MobileNetV2 computer-vision regression system trained on 1,275 images. It achieved a 4.92% mean absolute error on the independent test set and substantially outperformed a traditional computer-vision baseline."
+    },
+    {
+      "name": "BlastDynamics",
+      "category": "Academic project",
+      "date": "2025",
+      "url": "/portfolio/blastdynamics/",
+      "description": "Computer Vision Developer, Scrum Master, and sole developer of the video-analysis CLI. Built a classical computer-vision system for flyrock detection, tracking, trajectory estimation, risk metrics, annotated video, structured JSON, and API-integrated batch processing."
     }
-  ]
+  ],
+  "languages": [
+    {"language": "Spanish", "fluency": "Native"},
+    {"language": "English", "fluency": "Fluent - TOEFL iBT 110/120"},
+    {"language": "Japanese", "fluency": "Basic"}
+  ],
+  "interests": [
+    {
+      "name": "Research interests",
+      "keywords": [
+        "Quantum computing and quantum error correction",
+        "Machine learning and computer vision",
+        "Scientific and high-performance computing",
+        "Algorithms and systems"
+      ]
+    }
+  ],
+  "references": []
 }

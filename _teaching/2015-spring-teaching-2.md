@@ -1,20 +1,13 @@
 ---
-title: "Teaching experience 2"
+title: "Teaching Assistant - User Interface Design"
 collection: teaching
-type: "Workshop"
-permalink: /teaching/2015-spring-teaching-1
-venue: "University 1, Department"
-date: 2015-01-01
-location: "City, Country"
+type: "Teaching Assistant"
+permalink: /teaching/user-interface-design
+venue: "Universidad Técnica Federico Santa María"
+date: 2025-03-01
+end_date: 2026-07-31
+location: "Santiago, Chile"
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post.
-
-Heading 1
-======
-
-Heading 2
-======
-
-Heading 3
-======
+- Reviewed practical coursework in user-interface design across three academic semesters.
+- Provided guidance on course material and student projects.
